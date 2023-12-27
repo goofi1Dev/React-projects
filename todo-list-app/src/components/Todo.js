@@ -5,7 +5,7 @@ import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import EditTodoForm from "./EditTodoForm";
 
 export const Todo = ({ task, toggleComplete, deleteTodo, editTodo }) => {
-  console.log(task);
+  
   return (
     <div className="Todo">
       <p
